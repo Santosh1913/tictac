@@ -4,8 +4,7 @@ public class TicTacToe {
 
     static String[] board;
     static int turn = 1;
-    static String checkWinner()
-    {
+    static String checkWinner() {
         for (int a = 0; a < 8; a++) {
             String line = null;
 
